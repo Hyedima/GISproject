@@ -320,7 +320,7 @@
             <div class="page-header__bg" style="background-image: url('assets/images/backgrounds/page-header-bg-1-1.jpg');"></div>
             <!-- /.page-header__bg -->
             <div class="container">
-                <h2 class="page-header__title">Contact Us</h2>
+                <h2 class="page-header__title">Get in touch with Us</h2>
                 <ul class="cleenhearts-breadcrumb list-unstyled">
                     <li><i class="icon-home"></i> <a href="index.html">Home</a></li>
                     <li><span>Contact Us</span></li>
@@ -369,9 +369,10 @@
                         </div><!-- /.contact-one__map -->
                     </div><!-- /.col-lg-6 -->
                     <div class="col-lg-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-                        <div class="contact-one__form">
+                        <div class="contact-one__form" id="contactId">
                             <div class="contact-one__form__bg" style="background-image: url('assets/images/backgrounds/contact-bg-1-1.png');"></div><!-- /.contact-one__form__bg -->
                             <h2 class="contact-one__title">Leave us a Message</h2>
+                            <p class="">Got a question or special request? Simply fill out the form below, and one of our experts will reach out to you soon.</p>
                             <form class="contact-one__form__inner contact-form-validated form-one wow fadeInUp" data-wow-duration="1500ms" action="https://bracketweb.com/cleenhearts-html/inc/sendemail.php">
                                 <div class="row gutter-y-20">
                                     <div class="col-12">
@@ -389,19 +390,19 @@
                                             <input type="tel" name="phone" id="phone" placeholder="phone no" class="form-one__control__input">
                                         </div><!-- /.form-one__control -->
                                     </div><!-- /.col-12 -->
+                                    
                                     <div class="col-12">
                                         <div class="form-one__control">
-                                            <select class="selectpicker" aria-label="Default select example">
-                                                <option selected="">subject</option>
-                                                <option value="1">Volunteer</option>
-                                                <option value="2">Donations</option>
-                                                <option value="3">Foods Support</option>
-                                                <option value="4">Education Support</option>
-                                                <option value="4">Medical Support</option>
-                                                <option value="4">Sports Support</option>
-                                            </select>
+                                            <input type="text" name="organization" id="organization" placeholder="your organization" class="form-one__control__input">
                                         </div><!-- /.form-one__control -->
                                     </div><!-- /.col-12 -->
+
+                                    <div class="col-12">
+                                        <div class="form-one__control">
+                                            <input type="text" name="hearAboutUs" id="hearAboutUs" placeholder="your how did you hear about us" class="form-one__control__input">
+                                        </div><!-- /.form-one__control -->
+                                    </div><!-- /.col-12 -->
+
                                     <div class="col-12">
                                         <div class="form-one__control">
                                             <textarea name="message" id="message" cols="30" rows="10" placeholder="write message . . ." class="form-one__control__input form-one__control__message"></textarea>
@@ -487,10 +488,10 @@
                                 <h2 class="footer-widget__title">Quick Links</h2><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__links">
                                     <li><a href="about.html">About Us</a></li>
-                                    <li><a href="donate-right.html">Give Donation</a></li>
-                                    <li><a href="donate-right.html">Education Support</a></li>
-                                    <li><a href="events-list.html">Our Campaign</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="services.html">Our Services</a></li>
+                                    <li><a href="education.html">Education Support</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="#contactId">Contact Us</a></li>
                                 </ul><!-- /.list-unstyled footer-widget__links -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-md-3 -->
